@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ci05ee4rhusol"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2m1is"]
+size = Vector2(4, 4)
+
+[node name="CardTargetSelector" type="Node2D" unique_id=433061127]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1453260415]
+collision_mask = 4
+monitoring = false
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1373124850]
+shape = SubResource("RectangleShape2D_2m1is")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1231367308]
+layer = 2
