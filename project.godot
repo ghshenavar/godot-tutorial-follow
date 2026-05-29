@@ -15,6 +15,10 @@ run/main_scene="uid://oxm215ofr85v"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="uid://bxhn6s26o2827"
 
+[autoload]
+
+Event="*uid://cow0t2k0wdfbs"
+
 [display]
 
 window/size/viewport_width=256

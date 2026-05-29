@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://chqk8ilp70477"]
 
 [sub_resource type="Curve" id="Curve_j42f0"]
-_limits = [0.09294367, 1.0, 0.0, 1.0]
-_data = [Vector2(0.25679013, 0.09294367), 0.0, 0.0, 0, 0, Vector2(0.8197531, 0.8322802), 0.0, 0.0, 0, 0, Vector2(0.9654321, 0.29831493), 0.0, 0.0, 0, 0]
+_limits = [0.2, 1.0, 0.2, 1.0]
+_data = [Vector2(0.28703704, 0.2269243), 0.0, 0.0, 0, 0, Vector2(0.9555555, 0.98630863), 0.0, 0.0, 0, 0, Vector2(0.9654321, 0.29831493), 0.0, 0.0, 0, 0]
 point_count = 3
 
 [node name="CardArc" type="Line2D" unique_id=881954553]

@@ -10,5 +10,5 @@ enum Target {SELF, SINGLE_ENEMY, ALL_ENEMIES, EVERYONE}
 @export var target: Target
 
 
-func _is_single_targeted() -> bool:
+func is_single_targeted() -> bool:
 	return target == Target.SINGLE_ENEMY

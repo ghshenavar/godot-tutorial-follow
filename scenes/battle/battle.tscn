@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://fqhsoiu6cwev" path="res://scenes/card_ui/card_ui.tscn" id="2_ffvsa"]
 [ext_resource type="Texture2D" uid="uid://1u3b3hwqd8yh" path="res://art/tile_0110.png" id="2_fh7rg"]
 [ext_resource type="Script" uid="uid://bfvdp02i1fhwk" path="res://scripts/hand.gd" id="2_xd4uy"]
+[ext_resource type="PackedScene" uid="uid://ci05ee4rhusol" path="res://scenes/card_target_selector/card_target_selector.tscn" id="3_pll4o"]
 [ext_resource type="Resource" uid="uid://blcpudguq2dc4" path="res://characters/warrior/cards/warrior_axe_attack.tres" id="4_h0kxc"]
 [ext_resource type="Resource" uid="uid://dvuheew1axla8" path="res://characters/warrior/cards/warrior_block.tres" id="5_fh7rg"]
 
@@ -37,6 +38,8 @@ collision_layer = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CardDropArea" unique_id=301245393]
 position = Vector2(128, 50)
 shape = SubResource("RectangleShape2D_7gynk")
+
+[node name="CardTargetSelector" parent="." unique_id=433061127 instance=ExtResource("3_pll4o")]
 
 [node name="BattleUI" type="CanvasLayer" parent="." unique_id=2115483702 groups=["ui_layer"]]
 
